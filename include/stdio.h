@@ -21,6 +21,7 @@ extern "C" {
 
 #include <bits/alltypes.h>
 
+#undef NULL
 #ifdef __cplusplus
 #define NULL 0L
 #else
